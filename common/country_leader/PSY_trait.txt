@@ -1,0 +1,88 @@
+leader_traits = {
+	PSY_T_Sayoki = {#SAYOKI
+		random = no
+		political_power_factor = 0.25
+		be_with_flandre_drift = 0.15
+	}
+	PSY_T_Sayoki_Navy = {#Sayoki海军
+		random = no
+		naval_speed_factor = 0.05
+		navy_max_range_factor = 0.25
+		navy_submarine_detection_factor = 0.50
+		naval_hit_chance = 0.25
+	}
+	PSY_T_Flandre = {#FLANDRE
+		random = no
+		army_attack_factor = 0.25
+		army_defence_factor = 0.1
+		stability_factor = -0.2
+		be_with_flandre_drift = 0.5
+	}
+	PSY_T_Remilia = {#REMILIA
+		random = no
+		stability_factor = 0.30
+		war_support_factor = 0.30
+		be_with_flandre_drift = 0.25
+	}
+	PSY_T_Cirno = {#CIRNO
+		random = no
+		trade_laws_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25        
+		economy_cost_factor = -0.25
+		political_power_gain = -0.5
+		political_power_factor = 0.75
+	}
+	PSY_T_Satori = {#睡觉觉
+		random = no
+		operative_slot = 3
+		agency_upgrade_time = -0.5
+	}
+	PSY_T_Koakuma = {#小恶魔酱呢~
+		random = no
+		research_speed_factor = 0.05
+		production_speed_arms_factory_factor = 0.25
+		production_speed_industrial_complex_factor = 0.25
+		political_power_factor = 0.10
+		be_with_flandre_drift = 0.10
+	}
+	PSY_T_Patchouli = {#帕秋莉
+		random = no
+		research_speed_factor = 0.15
+		land_reinforce_rate = 0.05
+	}
+	PSY_T_Tenshi = {#比那名居天子呀
+		random = no
+		air_air_superiority_attack_factor = 0.05
+		air_air_superiority_agility_factor = 0.20
+		air_close_air_support_attack_factor = 0.10
+		air_close_air_support_agility_factor = 0.15
+	}
+	PSY_T_Remilia_Theorist = {#蕾咪，但她是军事理论家
+		random = no
+		experience_gain_army = 0.15
+		experience_gain_navy = 0.15
+		experience_gain_air = 0.15
+		supply_consumption_factor = -0.25
+		research_speed_factor = 0.05
+	}
+	PSY_T_Console = {#智能协调控制辅助系统
+		random = no
+		army_org_Factor = 0.05
+		army_speed_factor = 0.05
+		attrition = -0.01
+		max_dig_in = 1
+		air_air_superiority_attack_factor = 0.02
+		air_air_superiority_defence_factor = 0.02
+		air_air_superiority_agility_factor = 0.02
+		army_bonus_air_superiority_factor = 0.02
+		air_accidents_factor = -0.05
+		air_night_penalty = -0.05
+	}
+	PSY_T_Center_Designer = {#中央设计师
+		random = no
+		research_speed_factor = 0.03
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
+		production_factory_max_efficiency_factor = 0.1
+	}
+}

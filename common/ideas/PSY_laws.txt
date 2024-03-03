@@ -1,0 +1,69 @@
+ideas = {
+    trade_laws = {
+        law = yes
+        use_list_view = yes
+        sayoki_bettertrade = {
+            visible = {
+                tag = PSY
+            }
+            allowed = {
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                min_export = 0.05
+                industrial_capacity_factory = 0.10
+                industrial_capacity_dockyard = 0.05
+                production_speed_buildings_factor = 0.05
+                research_speed_factor = 0.10
+            }
+            cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
+        }
+    }
+    mobilization_laws = {
+        law = yes
+        sayoki_betterarmy = {
+            removal_cost = -1
+            visible = {
+                tag = PSY
+            }
+            allowed = {
+                always = no
+            }
+            modifier = {
+                conscription = 0.15
+                war_support_weekly = -0.001
+                training_time_factor = 0.5
+            }
+            allowed_to_remove = {
+                always = no
+            }
+        }
+    }
+    economy = {
+        law = yes
+        sayoki_bettereconomy = {
+            removal_cost = -
+            visible = {
+                tag = PSY
+            }
+            allowed = {
+                always = no
+            }
+            modifier = {
+                consumer_goods_expected_value = 0.05
+                production_speed_buildings_factor = -0.5
+                max_fuel_factor = -0.5
+                fuel_gain_factor = 0.25
+                local_resources_factor = 0.25
+                equipment_conversion_speed = 0.25
+            }
+            allowed_to_remove = {
+                always = no
+            }
+        }
+    }
+}

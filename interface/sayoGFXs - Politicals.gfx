@@ -1,0 +1,49 @@
+spriteTypes = {
+	
+	###内阁###
+	SpriteType = {
+		name = "GFX_idea_p_sayoki"
+		texturefile = "images/pictures/pic_sayoki.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_flandre"
+		texturefile = "images/pictures/pic_flandre.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_remilia"
+		texturefile = "images/pictures/pic_remilia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_cirno"
+		texturefile = "images/pictures/pic_cirno.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_satori"
+		texturefile = "images/pictures/pic_satori.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_koakuma"
+		texturefile = "images/pictures/pic_koakuma.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_patchouli"
+		texturefile = "images/pictures/pic_patchouli.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_tenshi"
+		texturefile = "images/pictures/pic_tenshi.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_p_console"
+		texturefile = "images/pictures/pic_console.dds"
+	}
+	
+}

@@ -1,0 +1,21 @@
+ideas = {
+    country = {
+        EON_ideas_rebuild_black_mesa = {
+            #picture =
+            modifier = {
+                research_speed_factor = 0.1
+            }
+        }
+        EON_ideas_damaged_economy = {
+            picture = GFX_damaged_economy
+            modifier = {
+                conversion_cost_civ_to_mil_factor = 2
+                conversion_cost_mil_to_civ_factor = 2
+                consumer_goods_factor = 0.8
+                industrial_capacity_factory = -0.4
+                production_speed_industrial_complex_factor = -1
+                production_speed_arms_factory_factor = -1
+            }
+        }
+    }
+}

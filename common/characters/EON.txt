@@ -1,0 +1,17 @@
+characters = {
+    EON_vans = {
+        name = EON_vans
+        portraits = {
+            civilian = {
+                large = GFX_EON_VANS
+            }
+        }
+        country_leader = {
+            ideology = anarchism
+            traits = {
+                cornered_fox
+            }
+            desc = "POLITICS_EONVANS_DESC"
+        }
+    }
+}

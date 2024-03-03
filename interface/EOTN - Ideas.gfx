@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_damaged_economy"
+		texturefile = "images/ideas/damaged_economy.dds"
+    }
+}

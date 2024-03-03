@@ -1,0 +1,36 @@
+state={
+	id=948
+	name="LabStateC03"
+	provinces={
+		13273 13274 
+	}
+	resources={
+		oil = 15
+		aluminium = 22
+		rubber = 35
+		tungsten = 34
+		steel = 18
+		chromium = 16
+	}
+	history={
+		owner = PSY
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			anti_air_building = 5
+			13273 = {
+				naval_base = 10
+			}
+		}
+		set_demilitarized_zone = yes
+		victory_points = {
+			13274 3
+		}
+		add_core_of = PSY
+	}
+	manpower=1230982
+	buildings_max_level_factor=2.000
+	state_category=large_city
+	local_supplies=25.000
+}

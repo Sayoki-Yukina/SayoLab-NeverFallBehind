@@ -1,0 +1,59 @@
+﻿#SayoLab Technologies.
+#2024-02-26 Created This File.
+
+capital = 939
+# 初始军队
+#oob = "EON_OnStartOOB"
+
+# 基础科技
+set_technology = {
+	sayotech_generic_materials= 1
+}
+
+#基础理念
+add_ideas = {
+	PSY_ideas_unsupport_golds
+	PSY_ideas_unsupport_countries
+	EON_ideas_damaged_economy
+}
+
+recruit_character = EON_vans
+
+#主要国家，基础配置信息
+set_major = yes
+set_convoys = 0 #运输船数量
+set_research_slots = 3 #给予0科研槽的原因在于想要增加目标难度。
+
+1936.1.1 = {
+
+	add_political_power = 200 #PP点
+	set_stability = 0.5 #稳定度
+	set_war_support = 0.75 #战争支持度
+
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15
+	communism = 25
+	fascism = 10
+	neutrality = 50
+	be_with_flandre = 0
+}
+
+create_corps_commander = {
+	name = "Kresa"
+	gfx = "GFX_EON_Kresa"
+	traits = { }
+	skill = 5
+	attack_skill = 8
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}

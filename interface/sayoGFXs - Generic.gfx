@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	###领导人，内阁类###
+	SpriteType = {
+		name = "GFX_PSY_SAYOKI"
+		texturefile = "images/SayokiYukina.dds"
+	}
+	SpriteType = {
+		name = "GFX_EON_VANS"
+		texturefile = "images/Vans.dds"
+	}
+
+}

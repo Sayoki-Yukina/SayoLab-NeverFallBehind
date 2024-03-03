@@ -1,0 +1,5 @@
+sub_unit_categories = {
+	category_sayolab_weapons
+	category_sayolab_eotnweapons
+	category_sayolab_usefuls
+}

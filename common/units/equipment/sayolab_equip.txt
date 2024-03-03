@@ -1,0 +1,57 @@
+equipments = {
+    sayolab_equip_technology_kit = {
+        picture = GFX_sayolab_equip_techkit
+        is_archetype = yes
+        is_buildable = no
+        group_by = archetype
+        interface_category = interface_category_land
+        reliability = 1.0
+        build_cost_ic = 50
+        type = { infantry }
+        resources = {
+            oil = 8
+            aluminium = 8
+            rubber = 8
+        }
+    }
+    sayolab_equip_technology_kit_1 = {
+        archetype = sayolab_equip_technology_kit
+        priority = 100
+    }
+    sayolab_equip_technology_kitA = {
+        picture = GFX_sayolab_equip_techkit
+        is_archetype = yes
+        is_buildable = no
+        group_by = archetype
+        interface_category = interface_category_land
+        reliability = 1.0
+        build_cost_ic = 30
+        type = { infantry }
+        resources = {
+            tungsten = 8
+            steel = 8
+            chromium = 8
+        }
+    }
+    sayolab_equip_technology_kitA_1 = {
+        archetype = sayolab_equip_technology_kitA
+        priority = 100
+    }
+    sayolab_equip_materials = {
+        picture = GFX_sayolab_equip_materials
+        is_archetype = yes
+        is_buildable = no
+        group_by = archetype
+        interface_category = interface_category_land
+        reliability = 1.0
+        build_cost_ic = 5
+        type = { infantry }
+        resources = {
+            steel = 10
+        }
+    }
+    sayolab_equip_materials_1 = {
+        archetype = sayolab_equip_materials
+        priority = 100
+    }
+}

@@ -1,0 +1,182 @@
+characters = {
+    PSY_sayoki = {
+        name = PSY_sayoki
+        portraits = {
+            civilian = {
+                large = GFX_PSY_SAYOKI
+                small = GFX_idea_p_sayoki
+            }
+        }
+        country_leader = {
+            ideology = be_with_sayoki
+            traits = {
+                cornered_fox
+            }
+            desc = "POLITICS_SAYOKI_DESC"
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = PSY_sayoki
+            ledger = civilian
+            traits = { PSY_T_Sayoki }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = PSY_sayoki_navy
+            ledger = civilian
+            traits = { PSY_T_Sayoki_Navy }
+        }
+        corps_commander = {
+            traits = { }
+            skill = 5
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 4
+        }
+    }
+    PSY_flandre = {
+        name = PSY_flandre
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_flandre
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = PSY_flandre
+            ledger = civilian
+            traits = { PSY_T_Flandre }
+        }
+    }
+    PSY_tenshi = {
+        name = PSY_tenshi
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_tenshi
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = PSY_tenshi
+            ledger = civilian
+            traits = { PSY_T_Tenshi }
+        }
+    }
+    PSY_remilia = {
+        name = PSY_remilia
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_remilia
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = PSY_remilia
+            ledger = civilian
+            traits = { PSY_T_Remilia }
+        }
+    }
+    PSY_cirno = {
+        name = PSY_cirno
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_cirno
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = PSY_cirno
+            ledger = civilian
+            traits = { PSY_T_Cirno }
+        }
+    }
+    PSY_satori = {
+        name = PSY_satori
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_satori
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = PSY_satori
+            ledger = civilian
+            traits = { PSY_T_Satori }
+        }
+    }
+    PSY_remilia_theorist = {
+        name = PSY_remilia_theorist
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_remilia
+            }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = PSY_remilia_theorist
+            ledger = civilian
+            traits = { PSY_T_Remilia_Theorist }
+            can_be_fired = no
+        }
+    }
+    PSY_console1 = {
+        name = PSY_console1
+        portraits = {
+            army = {
+                small = GFX_idea_p_console
+            }
+        }
+        advisor = {
+            slot = high_command
+            idea_token = PSY_console1
+            ledger = army
+            traits = { PSY_T_Console }
+            can_be_fired = no
+        }
+    }
+    PSY_console2 = {
+        name = PSY_console2
+        portraits = {
+            army = {
+                small = GFX_idea_p_console
+            }
+        }
+        advisor = {
+            slot = high_command
+            idea_token = PSY_console2
+            ledger = army
+            traits = { PSY_T_Console }
+            can_be_fired = no
+        }
+    }
+    PSY_console3 = {
+        name = PSY_console3
+        portraits = {
+            army = {
+                small = GFX_idea_p_console
+            }
+        }
+        advisor = {
+            slot = high_command
+            idea_token = PSY_console3
+            ledger = army
+            traits = { PSY_T_Console }
+            can_be_fired = no
+        }
+    }
+    PSY_T_Koakuma = {
+        name = PSY_T_Koakuma
+        portraits = {
+            civilian = {
+                small = GFX_idea_p_koakuma
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = PSY_T_Koakuma
+            ledger = civilian
+            traits = { PSY_T_Koakuma }
+        }
+    }
+}

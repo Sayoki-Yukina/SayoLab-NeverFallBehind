@@ -1,0 +1,71 @@
+﻿#REMAKE!GO GO GO !
+#2021-10-2 Created This File.
+
+# 不夜旧城
+capital = 942
+
+# 初始军队
+oob = "PSY_OnStartOOB"
+
+# 基础科技
+set_technology = {
+    sayotech_generic_materials = 1
+    tech_support = 1
+}
+
+#set_country_flag = sayoki_country
+#set_country_flag = sayoki_onboot
+recruit_character = PSY_sayoki
+recruit_character = PSY_flandre
+recruit_character = PSY_cirno
+recruit_character = PSY_remilia
+recruit_character = PSY_remilia_theorist
+recruit_character = PSY_console1
+recruit_character = PSY_console2
+recruit_character = PSY_console3
+recruit_character = PSY_tenshi
+recruit_character = PSY_satori
+#基础理念
+add_ideas = {
+    #Ideas
+    PSY_ideas_newland
+    PSY_ideas_no_military
+    PSY_ideas_demilitarized_zone
+    PSY_ideas_unsupport_golds
+    PSY_ideas_unsupport_countries
+    #Laws
+    sayoki_betterarmy
+    sayoki_bettertrade
+    sayoki_bettereconomy
+    PSY_remilia_theorist
+    PSY_console1
+    PSY_console2
+    PSY_console3
+}
+
+#主要国家，基础配置信息
+set_major = yes
+set_convoys = 300 #运输船数量
+set_research_slots = 0 #给予0科研槽的原因在于想要增加目标难度。
+
+1936.1.1 = {
+
+    add_political_power = 200 #PP点
+    set_stability = 0.35 #稳定度
+    set_war_support = 0.25 #战争支持度
+
+}
+
+set_politics = {
+    ruling_party = be_with_flandre
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+    democratic = 0
+    fascism = 0
+    neutrality = 0
+    be_with_flandre = 100
+}

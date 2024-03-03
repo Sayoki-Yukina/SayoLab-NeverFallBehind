@@ -1,0 +1,30 @@
+state={
+	id=935
+	name="LabState01"
+	provinces={
+		3731 6751 
+	}
+	resources={
+		oil = 2
+		aluminium = 1
+		rubber = 1
+		tungsten = 2
+		steel = 1
+		chromium = 3
+	}
+	history={
+		owner = EON
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			3731 3
+		}
+		add_core_of = EON
+	}
+	state_category=large_city
+	manpower=3178302
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

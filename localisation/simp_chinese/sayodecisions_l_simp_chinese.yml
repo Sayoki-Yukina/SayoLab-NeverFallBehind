@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ PSY_decisions:0 "SayoLab"
+ PSY_decisions_desc:0 "这是一场针对我们国家的大型改革，同时也包含了我们国家的主要国策。"
+ PSY_build_the_new_country:0 "重建新国家"
+ PSY_build_the_new_country_desc:0 "我们的国家刚刚建立，并不成熟。需要先建立起基础的法律体系和内阁相关国家建筑。"
+ PSY_research_army_01:0 "军事管理与重整"
+ PSY_research_army_01_desc:0 "通过对军队的进一步管理与重新整理部署，我们能合理的使用其携带的自研装备技术。"
+ PSY_solve_golds:0 "改善经济"
+ PSY_solve_golds_desc:0 "通过印钞和重新规划我们的经济制度，我们能适应当地的环境。"
+ EON_decisions:0 "EOTN 组织行动"
+ EON_decisions_desc:0 "EOTN 的组织行动列表。\n"
+ EON_decisions_effect:0 "建立XXX"
+ EON_decisions_effect_desc:0 "通过建立XXX，则XXX."

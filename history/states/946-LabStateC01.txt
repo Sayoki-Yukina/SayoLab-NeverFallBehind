@@ -1,0 +1,24 @@
+state={
+	id=946
+	name="LabStateC01"
+	provinces={
+		13285 13291 
+	}
+	history={
+		owner = PSY
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 2
+		}
+		set_demilitarized_zone = yes
+		victory_points = {
+			13291 5
+		}
+		add_core_of = PSY
+	}
+	manpower=4128047
+	buildings_max_level_factor=3.000
+	state_category=large_city
+	local_supplies=50.000
+}

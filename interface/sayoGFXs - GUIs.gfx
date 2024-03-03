@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+	###界面元素###
+	SpriteType = {
+		name = "GFX_sayotech_folder_tab"
+		texturefile = "images/GUIs/sayotech_folder_tab.dds"
+	}
+}

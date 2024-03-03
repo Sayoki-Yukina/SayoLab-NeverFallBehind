@@ -1,0 +1,17 @@
+technology_categories = {
+	sayotech
+	sayoeotn
+}
+
+#technology_folders = {
+#	sayotech_generic = {#SayoLab科技组
+#		available = {
+#			original_tag = PSY
+#		}
+#	}
+#	sayotech_eotn = {#EOTN科技组
+#		available = {
+#			original_tag = EON
+#		}
+#	}
+#}

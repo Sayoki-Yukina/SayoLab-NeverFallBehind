@@ -1,0 +1,26 @@
+state={
+	id=938
+	name="LabState04"
+	provinces={
+		11644 11659
+	}
+	resources={
+		oil = 5
+		aluminium = 8
+		rubber = 11
+		tungsten = 6
+		steel = 21
+		chromium = 5
+	}
+	history={
+		owner = EON
+		victory_points = {
+			11644 1
+		}
+		add_core_of = EON
+	}
+	state_category=large_city
+	manpower=3123720
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

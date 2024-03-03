@@ -1,0 +1,33 @@
+state={
+	id=942
+	name="LabMainLab"
+	provinces= {
+		13282
+	}
+	history={
+		owner = PSY
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 14
+			arms_factory = 15
+			air_base = 10
+			anti_air_building = 5
+			radar_station = 6
+			nuclear_reactor = 1
+			fuel_silo = 10
+			13282 = {
+				supply_node = 1
+				bunker = 5
+			}
+		}
+		set_demilitarized_zone = yes
+		victory_points = {
+			13282 50
+		}
+		add_core_of = PSY
+	}
+	manpower=4
+	buildings_max_level_factor=10.000
+	state_category=megalopolis
+	local_supplies=100.000
+}

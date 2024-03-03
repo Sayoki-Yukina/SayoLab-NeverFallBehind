@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	###领导人，内阁类###
+	spriteType = {
+		name = "GFX_ideology_be_with_flandre_group"
+		texturefile = "images/flandre_ideology_image.dds"
+	}
+
+}

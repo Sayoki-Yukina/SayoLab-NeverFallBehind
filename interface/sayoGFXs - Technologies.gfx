@@ -1,0 +1,27 @@
+spriteTypes = {
+	###科技图标###
+	SpriteType = {
+		name = "GFX_sayotech_generic_weapons01_medium"
+		texturefile = "images/technologies/sayoki_technology_generic.dds"
+	}
+	SpriteType = {
+		name = "GFX_sayolab_equip_techkit"
+		texturefile = "images/technologies/sayoki_equip_techkit.dds"
+	}
+	SpriteType = {
+		name = "GFX_sayolab_equip_materials"
+		texturefile = "images/technologies/sayoki_equip_materials.dds"
+	}
+	SpriteType = {
+		name = "GFX_sayolab_equip_materials_1_medium"
+		texturefile = "images/technologies/sayoki_equip_materials.dds"
+	}
+	SpriteType = {
+		name = "GFX_sayolab_equip_technology_kit_1_medium"
+		texturefile = "images/technologies/sayoki_equip_techkit.dds"
+	}
+	SpriteType = {
+		name = "GFX_sayolab_equip_technology_kitA_1_medium"
+		texturefile = "images/technologies/sayoki_equip_techkit.dds"
+	}
+}

@@ -1,0 +1,13 @@
+EON_decisions = {
+    EON_decisions_effect = {
+        available = {
+            has_army_experience > 50
+        }
+        modifier = {
+            political_power_cost = 1
+        }
+        days_remove = 1
+        complete_effect = { army_experience = -50 }
+        remove_effect = { remove_ideas = xxxxx }
+    }
+}

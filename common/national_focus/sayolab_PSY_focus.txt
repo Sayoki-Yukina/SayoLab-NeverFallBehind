@@ -1,0 +1,116 @@
+focus_tree = {
+    id = sayolab_PSY_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 50
+            tag = PSY
+        }
+        modifier = {
+            add = 50
+            original_tag = PSY
+        }
+    }
+    default = no
+    focus = {
+        id = sayolab_PSY_rebuild_country
+        icon = GFX_focus_generic_league_of_nations
+        x = 1
+        y = 0
+        cost = 5
+        ai_will_do = {
+            factor = 3
+        }
+        completion_reward = {
+            add_political_power = 100
+            hidden_effect = {
+                swap_ideas = {
+                    remove_idea = PSY_ideas_newland
+                    add_idea = PSY_ideas_stopship
+                }
+            }
+            custom_effect_tooltip = PSY_tooltip_stopship
+            custom_effect_tooltip = PSY_tooltip_allowed_decisions
+        }
+    }
+    focus = {
+        id = sayolab_PSY_economy_boost
+        icon = GFX_focus_hol_the_foundations_of_defense
+        x = 11
+        y = 1
+        prerequisite = { focus = sayolab_PSY_rebuild_country }
+        cost = 5
+        available = {
+            has_country_flag = PSY_build_country
+        }
+        ai_will_do = {
+            factor = 4
+        }
+        completion_reward = {
+            add_stability = 0.15
+            add_ideas = PSY_ideas_golds_rebuild
+            swap_ideas = {
+                add_idea = PSY_ideas_unsupport_golds_1
+                remove_idea = PSY_ideas_unsupport_golds
+            }
+        }
+    }
+    focus = {
+        id = sayolab_PSY_army_prepar
+        icon = GFX_focus_SWE_let_fly_all_guns
+        x = 21
+        y = 1
+        prerequisite = { focus = sayolab_PSY_rebuild_country }
+        cost = 5
+        available = {
+            has_country_flag = PSY_build_country
+        }
+        ai_will_do = {
+            factor = 8
+        }
+        completion_reward = {
+            army_experience = 50
+            navy_experience = 50
+            air_experience = 50
+            add_command_power = 10
+            custom_effect_tooltip = PSY_tooltip_allowed_decisions
+        }
+    }
+    #SayoLab Technologies
+    focus = {
+        id = sayolab_PSY_technologies
+        icon = GFX_goal_continuous_research
+        x = 2
+        y = 1
+        prerequisite = { focus = sayolab_PSY_rebuild_country }
+        cost = 5
+        available = {
+            amount_research_slots < 1
+        }
+        ai_will_do = {
+            factor = 5
+        }
+        completion_reward = {
+            add_research_slot = 1
+            custom_effect_tooltip = PSY_tooltip_allowed_decisions
+        }
+    }
+    focus = {
+        id = sayolab_PSY_technologies_sub01
+        icon = GFX_focus_research2
+        x = 2
+        y = 2
+        prerequisite = { focus = sayolab_PSY_technologies }
+        cost = 5
+        available = {
+
+        }
+        ai_will_do = {
+            factor = 5
+        }
+        completion_reward = {
+            add_research_slot = 1
+            custom_effect_tooltip = PSY_tooltip_allowed_decisions
+        }
+    }
+}

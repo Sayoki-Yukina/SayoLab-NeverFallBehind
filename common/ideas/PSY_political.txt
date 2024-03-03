@@ -1,0 +1,13 @@
+ideas = {
+	industrial_concern = {
+		PSY_patchouli = {
+			picture = p_patchouli
+			allowed = { original_tag = PSY }
+			traits = { PSY_T_Patchouli }
+			ledger = all
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+}

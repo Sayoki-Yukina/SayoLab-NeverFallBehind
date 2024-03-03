@@ -1,0 +1,19 @@
+spriteTypes = {
+	
+	###法案###
+	SpriteType = {
+		name = "GFX_idea_sayoki_betterarmy"
+		texturefile = "gfx/interface/ideas/idea_generic_acquire_tanks.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_sayoki_bettereconomy"
+		texturefile = "gfx/interface/ideas/idea_generic_local_self_management.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_sayoki_bettertrade"
+		texturefile = "gfx/interface/ideas/idea_generic_flexible_foreign_policy2.dds"
+	}
+	
+}

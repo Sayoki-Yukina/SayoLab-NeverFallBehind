@@ -1,0 +1,127 @@
+PSY_decisions = {
+    PSY_build_the_new_country = {
+        available = {
+            has_equipment = {
+                sayolab_equip_materials > 40
+            }
+            NOT = { has_idea = PSY_ideas_country_focuson }
+        }
+        visible = {
+            has_completed_focus = sayolab_PSY_rebuild_country
+        }
+        modifier = {
+            stability_weekly = 0.05
+            war_support_weekly = 0.05
+            political_power_cost = 1
+        }
+        days_remove = 7
+        cost = 0
+        complete_effect = {
+            hidden_effect = { add_ideas = PSY_ideas_country_focuson }
+            custom_effect_tooltip = PSY_tooltip_will_focusing_on
+            add_equipment_to_stockpile = {
+                type = sayolab_equip_materials
+                amount = -40
+            }
+        }
+        remove_effect = {
+            set_country_flag = PSY_build_country
+            custom_effect_tooltip = PSY_tooltip_built_country
+            custom_effect_tooltip = PSY_tooltip_allowed_focuses
+            remove_ideas = PSY_ideas_stopship
+            hidden_effect = { remove_ideas = PSY_ideas_country_focuson }
+        }
+    }
+    PSY_research_army_01 = {
+        available = {
+            has_equipment = { sayolab_equip_materials > 70 }
+            has_equipment = { sayolab_equip_technology_kitA > 100 }
+            NOT = { has_idea = PSY_ideas_country_focuson has_idea = PSY_ideas_country_researchon }
+        }
+        visible = {
+            has_completed_focus = sayolab_PSY_army_prepar
+        }
+        modifier = {
+            stability_weekly = 0.05
+            war_support_weekly = 0.05
+            political_power_cost = 1
+        }
+        days_remove = 7
+        cost = 0
+        complete_effect = {
+            hidden_effect = { add_ideas = PSY_ideas_country_focuson add_ideas = PSY_ideas_country_researchon }
+            custom_effect_tooltip = PSY_tooltip_will_focusing_on
+            custom_effect_tooltip = PSY_tooltip_will_researching_on
+            add_equipment_to_stockpile = {
+                type = sayolab_equip_materials
+                amount = -70
+            }
+            add_equipment_to_stockpile = {
+                type = sayolab_equip_technology_kitA
+                amount = -100
+            }
+        }
+        remove_effect = {
+            set_technology = {
+                sayotech_generic_weapons01 = 1
+            }
+            army_experience = 100
+            navy_experience = 200
+            air_experience = 200
+            add_command_power = 25
+            hidden_effect = { remove_ideas = PSY_ideas_country_focuson remove_ideas = PSY_ideas_country_researchon }
+            custom_effect_tooltip = sayolab_tooltip_extraspace
+            swap_ideas = {
+                add_idea = PSY_ideas_no_military_1
+                remove_idea = PSY_ideas_no_military
+            }
+            hidden_effect = { add_stability = 0.05 }
+            custom_effect_tooltip = sayolab_tooltip_new_research_available
+            custom_effect_tooltip = sayolab_tooltip_research_line_01
+            custom_effect_tooltip = sayolab_tooltip_new_decision_available
+            custom_effect_tooltip = sayolab_tooltip_decision_line_01
+            custom_effect_tooltip = sayolab_tooltip_research_boost
+        }
+    }
+    PSY_solve_golds = {
+        available = {
+            OR = {
+                has_idea = PSY_ideas_unsupport_golds_1
+                has_idea = PSY_ideas_unsupport_golds_2
+                has_idea = PSY_ideas_unsupport_golds_3
+            }
+            NOT = { has_idea = PSY_ideas_country_focuson }
+        }
+        visible = {
+            has_completed_focus = sayolab_PSY_economy_boost
+        }
+        modifier = {
+            stability_weekly = 0.015
+            war_support_weekly = 0.005
+            political_power_cost = 0.2
+        }
+        complete_effect = {
+            hidden_effect = { add_ideas = PSY_ideas_country_focuson }
+            custom_effect_tooltip = PSY_tooltip_will_focusing_on
+        }
+        days_remove = 35
+        cost = 80
+        remove_effect = {
+            if = {
+                limit = { has_idea = PSY_ideas_unsupport_golds_1 }
+                swap_ideas = {
+                    add_idea = PSY_ideas_unsupport_golds_2
+                    remove_idea = PSY_ideas_unsupport_golds_1
+                }
+            }
+            else_if = {
+                limit = { has_idea = PSY_ideas_unsupport_golds_2 }
+                swap_ideas = {
+                    add_idea = PSY_ideas_unsupport_golds_3
+                    remove_idea = PSY_ideas_unsupport_golds_2
+                }
+            }
+            hidden_effect = { remove_ideas = PSY_ideas_country_focuson }
+        }
+    }
+}

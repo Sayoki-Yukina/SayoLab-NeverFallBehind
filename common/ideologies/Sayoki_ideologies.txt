@@ -1,0 +1,37 @@
+ideologies = {
+
+	be_with_flandre = {
+	
+		types = {
+			be_with_sayoki = {
+				defense_bonus_against = 0.25
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SAYOFLAN_1"
+			"FACTION_NAME_SAYOFLAN_2"
+			"FACTION_NAME_SAYOFLAN_3"
+			"FACTION_NAME_SAYOFLAN_4"
+			"FACTION_NAME_SAYOFLAN_5"
+		}		
+		
+		color = { 212 242 231 }
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		modifiers = {
+			stability_weekly = 0.002
+			war_support_weekly = 0.002
+		}
+		
+		can_be_boosted = yes
+		can_collaborate = yes
+		
+	}
+	
+}
