@@ -1,4 +1,3 @@
 SayoLab Modding Program  
-Based On - Hearts of Sayoki IV  
-Remake Version - Isolated Island  
+Based On - Isolated Island ( Remake ver. From Hearts of Sayoki IV )
 Previous Version - Never Fall Behind  
