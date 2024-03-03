@@ -7,7 +7,7 @@ ideas = {
             }
         }
         EON_ideas_damaged_economy = {
-            picture = GFX_damaged_economy
+            picture = damaged_economy
             modifier = {
                 conversion_cost_civ_to_mil_factor = 2
                 conversion_cost_mil_to_civ_factor = 2
